@@ -1,0 +1,302 @@
+/* Universal Styles */
+
+
+body {
+  font-family: Helvetica;
+}
+
+h1 {
+  color: #686868;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #686868;
+  letter-spacing: 1px;
+}
+
+h3 {
+  color: #686868;
+  letter-spacing: 1px;
+}
+
+h4 {
+  color: #686868;
+  letter-spacing: 1px;
+}
+
+h5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+p {
+  letter-spacing: 1px;
+  color: #C0C0C0;
+  height: 16px;
+  line-height: 25px;
+  padding-bottom: 8px;
+}
+/* NAVIGATION */
+
+.header {
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 16px 24px;
+
+}
+
+.logo {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    height: 32px;
+    background-color: white;
+}
+
+.logotxt {
+  display: inline-flex;
+  height: 32px;
+}
+
+img.logo {
+  height: 48px;
+}
+
+nav li {
+  display: inline;
+  padding: 8px;
+}
+
+nav li:last-child {
+  padding-right: 24px;
+}
+
+nav a {
+   text-decoration: none; /*remove underline*/
+   color: #2F4F4F;
+}
+
+
+/* FIRST SECTION */
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #E8E8E8;
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+}
+
+img.intro{
+
+  width: 60%;
+
+}
+
+.intro_text {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  padding: 24px;
+  margin-top: auto;
+  background-color: #E8E8E8;
+  text-align: left;
+  margin-bottom: auto;
+
+}
+
+.btn {
+    background-color: #686868;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px;
+    letter-spacing: 1px;
+    width: inherit;
+    min-width: 300px;
+}
+
+
+/* SECOND SECTION */
+
+img.first {
+    margin-right: 24px;
+}
+
+.first {
+  margin-right: 24px;
+  width: 60%;
+}
+
+quote {
+  display: block;
+  color: #686868;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+img.caption {
+    height: auto;
+
+}
+
+.text {
+  width: 65%;
+  padding: 16px;
+  line-height: normal;
+}
+
+
+
+
+.caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  border-left: solid;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: #E8E8E8;
+}
+
+.special {
+  background-color: #E8E8E8;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-left: solid;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: #E8E8E8;
+}
+
+
+a {
+  color: #66CCFF;
+  text-decoration: none;
+  padding-top: 8px;
+}
+
+
+/* THIRD SECTION */
+
+.module-desc {
+    display: flex;
+    align-items: space-between;
+    padding: 32px;
+}
+
+
+
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E8E8E8;
+  width: auto;
+
+}
+
+
+.modules {
+    display: flex
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 16px;
+    min-height: 400px;
+
+
+}
+
+.modules-one {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    align-items: space-between;
+
+}
+
+.modules-two {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  align-items: space-between;
+}
+
+.module-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding-left: 16px
+    padding-right: 16px;
+    background-color: white;
+}
+
+
+/* FOURTH SECTION*/
+
+
+
+.first {
+  width: 60%;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+
+}
+
+.thumbnail_one {
+    display: flex;
+    flex-direction: row;
+}
+
+.thumbnail_two {
+    display: flex;
+    flex-direction: row;
+}
+
+.thumbnail_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding-top: 60px;
+    padding-left: 16px;
+    width: 65%;
+
+}
+
+
+
+
+
+/* FOOTER */
